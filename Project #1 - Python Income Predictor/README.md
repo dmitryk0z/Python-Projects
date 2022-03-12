@@ -4,7 +4,7 @@ Using a dataset (the "Adult Data Set") from the UCI Machine-Learning Repository 
 
 **The technique:**
 
-The approach is to create a 'classifier' - a program that takes a new example record and, based on previous examples, determines which 'class' it belongs to. In this problem we consider attributes of records and separate these into two broad classes, <=50K and >50K.
+The approach is to create a **classifier** - a program that takes a new example record and, based on previous examples, determines which 'class' it belongs to. In this problem we consider attributes of records and separate these into two broad classes, <=50K and >50K.
 
 We begin with a training data set - examples with known solutions. The classifier looks for patterns that indicate classification. These patterns can be applied against new data to predict outcomes. If we already know the outcomes of the test data, we can test the reliability of our model. if it proves reliable we could then use it to classify data with unknown outcomes.
 
